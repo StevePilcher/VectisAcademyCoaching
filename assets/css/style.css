@@ -81,4 +81,14 @@ body {
 #logoheader {
     height: 35px;
 }
+.hero-heading {
+    text-align: center;
+    font-size: 75px;
+    padding-top: 0px;
+}
+.hero-row {
+    width: 100%;
+    justify-content: center;
+    padding-top: 150px;
+    margin-bottom:500px;
 }
