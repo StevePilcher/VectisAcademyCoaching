@@ -1,15 +1,84 @@
 /*FONTS ---------------------------*/
 
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@200;300;400;500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cabin:wght@500;600&family=Fjalla+One&family=Oswald:wght@200;300;400;500&display=swap');
 
 
 body {
-    background-image: url(../images/background-1.jpg);
+    background-image: url(../images/background-small.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    font-family: Cabin, sans-serif;
+    color:#000000;
+}
+/* Header ----------------------------*/
+
+
+#logoheader {
+    height: 50px;
+}
+
+.nav-column li a {
+    margin-top: 5px;
+    color:#000000;
+    font-size: 20px;
+}
+
+/* Hero ------------------------------*/
+
+.hero-row {
+    width: 100%;
+    justify-content: center;
+    padding-top: 250px;
+    margin-bottom:500px;
+}
+.hero-heading {
+    text-align: center;
+    font-size: 100px;
+    font-family: Cabin;
+}
+
+/* Icons Section ---------------------*/
+
+.icons-row {
+    background-color: #ffffff;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+.icons-row img {
+    max-height: 300px;
+    width: 454px;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries ----------------------*/
+
+@media screen and (max-width: 480px) {
+
+#logoheader {
+    height: 35px;
+}
+}
