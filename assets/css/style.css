@@ -51,7 +51,7 @@ body {
 .ethos-header-row {
     background-color: #ffffff;
     justify-content: space-evenly;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 .ethos-header-row h1 {
@@ -113,4 +113,7 @@ body {
 }
 .ethos-header-row h1 {
     font-size:2.5em;
+}
+.icon {
+    width: 40%;
 }
