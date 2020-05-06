@@ -9,7 +9,9 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: Cabin, sans-serif;
+    font-family: Oswald, sans-serif;
+    font-weight: 400;
+    
     color:#000000;
 }
 /* Header ----------------------------*/
@@ -44,21 +46,24 @@ body {
     max-width:70%;
 }
 
-/* Icons Section ---------------------*/
+/* Ethos Section ---------------------*/
 
-.icons-row {
+.ethos-header-row {
     background-color: #ffffff;
     justify-content: space-evenly;
     padding-top: 100px;
+    padding-bottom: 50px;
 }
-.icons-row img {
-    max-height: 300px;
-    width: 454px;
+.ethos-body-row {
+    background-color: #ffffff;
+    justify-content: space-evenly;
 }
-
-
-
-
+.ethos-column {
+    text-align: justify;
+}
+.ethos-column h2 {
+    text-align: center;
+}
 
 
 
