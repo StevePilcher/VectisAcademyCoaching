@@ -4,7 +4,7 @@
 
 
 body {
-    background-image: url(../images/background-small.jpg);
+    background-image: url(../images/bw-background-3.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -30,13 +30,18 @@ body {
 .hero-row {
     width: 100%;
     justify-content: center;
-    padding-top: 250px;
+    padding-top: 0px;
     margin-bottom:500px;
 }
+
 .hero-heading {
-    text-align: center;
-    font-size: 100px;
-    font-family: Cabin;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-row img {
+    border-radius: 50%;
+    max-width:70%;
 }
 
 /* Icons Section ---------------------*/
