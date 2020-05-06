@@ -54,20 +54,26 @@ body {
     padding-top: 100px;
     padding-bottom: 50px;
 }
+.ethos-header-row h1 {
+    font-size:4em;
+}
+
 .ethos-body-row {
     background-color: #ffffff;
     justify-content: space-evenly;
     padding:1em;
 }
 .ethos-column {
-    text-align: justify;
+    text-align: center;
     
 }
 .ethos-column h2 {
     text-align: center;
     padding-bottom: 20px;
 }
-
+.ethos-column p {
+    padding-bottom: 20px;
+}
 
 
 
@@ -104,4 +110,7 @@ body {
     justify-content: center;
     padding-top: 150px;
     margin-bottom:500px;
+}
+.ethos-header-row h1 {
+    font-size:2.5em;
 }
