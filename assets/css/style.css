@@ -57,12 +57,15 @@ body {
 .ethos-body-row {
     background-color: #ffffff;
     justify-content: space-evenly;
+    padding:1em;
 }
 .ethos-column {
     text-align: justify;
+    
 }
 .ethos-column h2 {
     text-align: center;
+    padding-bottom: 20px;
 }
 
 
